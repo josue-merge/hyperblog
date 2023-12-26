@@ -1,69 +1,33 @@
-/* Reset de estilos */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Estilos generales */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #444;
-    margin: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 32px;
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  article {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(212, 9, 9, 0.1);
-  }
-  
-  article h2 {
-    color: #333;
-    font-size: 28px;
-    margin-bottom: 15px;
-  }
-  
-  article p {
-    color: #555;
-    margin-bottom: 10px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-  }
-  
+/* Cambios de colores */
+body {
+  background-color: #f2f2f2; /* Cambia el color de fondo del cuerpo */
+  color: #333; /* Cambia el color del texto principal */
+}
+
+header {
+  background-color: #444; /* Cambia el color de fondo del encabezado */
+  color: #fff; /* Cambia el color del texto del encabezado */
+}
+
+nav ul li a {
+  color: #eee; /* Cambia el color de los enlaces del menú */
+}
+
+article {
+  background-color: #fafafa; /* Cambia el color de fondo del área del artículo */
+  border-radius: 8px; /* Modifica el radio del borde del artículo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Modifica la sombra del artículo */
+}
+
+article h2 {
+  color: #222; /* Cambia el color del título del artículo */
+}
+
+article p {
+  color: #444; /* Cambia el color del texto del artículo */
+}
+
+footer {
+  background-color: #222; /* Cambia el color de fondo del pie de página */
+  color: #fff; /* Cambia el color del texto del pie de página */
+}
